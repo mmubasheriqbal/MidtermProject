@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+/* font-family: 'Kaushan Script', cursive; */
+
+html,
+body {
+  margin: 0;
+}
+
+html {
+  background: url(img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+}
+
+.cover {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  margin: 0px;
+}
+
+.cover img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+
+/* Navbar */
+
+header {
+  width: 80%;
+  padding: 0 10%;
+  height: 50px;
+  position: fixed;
+  /*background: url(img/wb.png);*/
+  background-color: rgba(10,10,10, 0.5);
+  z-index: 10;
+}
+
+header h1 {
+  display: inline-block;
+  color: #ffe700;
+  font-family: 'Kaushan Script', cursive;
+  margin: 0;
+  padding: 0;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgba(0,128,255, 0);
+    color: #ffe700;
+    padding: 12px;
+    width: 120px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    border: none;
+    transition: all 1s;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: rgba(10,10,10, 0.5);
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  font-family: 'Kaushan Script', cursive;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0,128,255, 0.5);
+}
+
+nav li {
+  
+  height: 50px;
+  line-height: 50px;
+  width: 120px;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffe700;
+  display: block;
+  text-align: center;
+  transition: all 1s;
+}
+
+nav a:hover {
+  background-color: rgba(10,10,10, 0.7);
+  color: white;
+}
+
+.container2 {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 5%;
+  color: white;
+  background-color: rgba(10,10,10, 0.5);
+  font-family: georgia;
+}
+
+.picplace {
+  float:right;
+  margin-left: 5px;
+}
+
