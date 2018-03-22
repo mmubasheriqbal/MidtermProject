@@ -1,4 +1,6 @@
- 
+Here is the link to my server space that has all the code files: http://sites.bxmc.poly.edu/~mubasheriqbal/MyReviews/
+Here is the direct link to MyReviews website: http://sites.bxmc.poly.edu/~mubasheriqbal/MyReviews/transition.html
+Here is the link to my midterm proposal: http://sites.bxmc.poly.edu/~mubasheriqbal/Proposal/midterm-proposal.html
   
  One of the interesting and challenging things I found about working on this website was making a good looking drop down menu. I was able to find a good tutorial on w3 schools, that enabled me to make my desire drop down menu. The key is that each process/step of a drop down menu has to be broken down into classes, and then each attributes can be assigned to each class according to our specifications. For instance, in this case we have a normal looking button that changes when the mouse hovers over it. At the same time a menu drops down with different options to select. This requires four different classes. Then as the mouse hovers over each option, the appearance of the option changes too. This requires two more classes. Combining all of this with a position-fixing class, and you have a total of 7 classes controlling one drop down menu. 
  
